@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  html:
+    image: nginx:alpine-slim
+    ports:
+      - 8080:80
+    volumes:
+      - ./html:/usr/share/nginx/html/
