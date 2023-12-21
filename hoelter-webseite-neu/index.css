@@ -1,5 +1,32 @@
+/*--------------------------- Head --------------------------------*/
+
+/* -------------------------- Body ------------------------------ */
+body{
+    margin: 0;
+}
+
+/*  Navbar  */
+.navbar{
+    width:960px;
+    margin:0 auto;
+    background-color:#ccc;
+    overflow: hidden;
+}
 .navbar-light{
     background-color: #6ea890 !important;
     border: none !important;
     border-width:0!important;
 }
+.nav-link{
+    float: left ;
+
+}
+
+.nav-link + .nav-link {
+    margin-left: 3%;
+}
+
+.nav-logo{
+    float: right;
+}
+/*----------------------- Footer -----------------------------------*/
