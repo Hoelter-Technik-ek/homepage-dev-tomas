@@ -45,6 +45,7 @@ overflow: auto;
     font: bold;
 }
 
+/* Container für Hauptseite, wird bestimmt ersetzt*/
 .container{
     margin: auto;
     padding: 0;
