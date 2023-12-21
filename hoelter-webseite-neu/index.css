@@ -44,4 +44,10 @@ overflow: auto;
     float: right;
     font: bold;
 }
+
+.container{
+    margin: auto;
+    padding: 0;
+    background-color: #6ea890;
+}
 /*----------------------- Footer -----------------------------------*/
