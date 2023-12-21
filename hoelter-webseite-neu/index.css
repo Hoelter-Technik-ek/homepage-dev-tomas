@@ -27,15 +27,19 @@ body{
 }
 .nav-link{
     float: left ;
-
+}
+.nav-search{
+    
 }
 
 .nav-link + .nav-link {
     margin-left: 3%;
 }
+
 .nav-container{
 overflow: auto;
 }
+
 .nav-logo{
     float: right;
     font: bold;
