@@ -47,8 +47,11 @@ overflow: auto;
 
 /* Container für Hauptseite, wird bestimmt ersetzt*/
 .container{
-    margin: auto;
+    float:0 auto;
+    margin: 0;
     padding: 0;
     background-color: #6ea890;
 }
 /*----------------------- Footer -----------------------------------*/
+
+
