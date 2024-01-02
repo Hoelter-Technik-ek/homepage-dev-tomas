@@ -20,6 +20,9 @@ body{
     font-weight: bold;
 
 }
+.nav-logo{
+    margin: 0;
+}
 .navbar-light{
     background-color: #6ea890 !important;
     border: none !important;
