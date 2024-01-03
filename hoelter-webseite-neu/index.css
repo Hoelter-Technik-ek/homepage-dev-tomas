@@ -22,6 +22,7 @@ body{
 }
 .nav-logo{
     margin: 0;
+    
 }
 .navbar-light{
     background-color: #6ea890 !important;
@@ -56,5 +57,17 @@ overflow: auto;
     background-color: #6ea890;
 }
 /*----------------------- Footer -----------------------------------*/
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    float: left;
+}
 
+.footer-sonstiges{
+    list-style: none;
+    display: inline-flex;
+    float: right;
+}
 
