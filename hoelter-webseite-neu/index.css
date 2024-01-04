@@ -49,10 +49,13 @@ overflow: auto;
 
 /* Container für Hauptseite, wird bestimmt ersetzt*/
 .container{
-    float:0 auto;
+    display: inline-block;
     margin: 0;
     padding: 0;
-    background-color: #6ea890;
+    min-height: 0;
+    width: 100%;
+    flex: 1;
+    
 }
 .container-greeting{
     display: flex;
@@ -65,7 +68,7 @@ p{
 }
 /*----------------------- Footer -----------------------------------*/
 footer{
-    position: absolute;
+    position: inherit;
     bottom: 0;
     width: 100%;
     overflow: hidden;
