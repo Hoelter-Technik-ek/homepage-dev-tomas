@@ -24,11 +24,7 @@ a{
     font-weight: bold;
 
 }
-.nav-logo{
-    margin: 0;
-    
-}
-.navbar-light{
+.color-global{
     background-color: #6ea890 !important;
     border: none !important;
     border-width:0!important;
@@ -48,6 +44,7 @@ overflow: auto;
 .nav-logo{
     float: right;
     font: bold;
+    margin: 0;
 }
 
 /* Container für Hauptseite, wird bestimmt ersetzt*/
@@ -56,6 +53,15 @@ overflow: auto;
     margin: 0;
     padding: 0;
     background-color: #6ea890;
+}
+.container-greeting{
+    display: flex;
+    flex-flow: column;
+    justify-content:center;
+    align-items: center;
+}
+p{
+   font-weight: bolder; 
 }
 /*----------------------- Footer -----------------------------------*/
 footer{
@@ -75,6 +81,4 @@ footer{
 
 ul{
     list-style: none;
-    text-align: justify;
-    display: block;
 }
