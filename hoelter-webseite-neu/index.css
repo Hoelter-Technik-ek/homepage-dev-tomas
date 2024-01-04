@@ -81,7 +81,7 @@ footer{
     justify-content:center;
     align-items: center;
 }
-
+/*Capitalize hinzufügen für die list items */
 ul{
     list-style: none;
 }
